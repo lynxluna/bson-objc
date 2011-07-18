@@ -10,6 +10,7 @@
 #import <ctype.h>
 #import <string.h>
 #import <objc/runtime.h>
+#import <objc/message.h>
 
 #define BSONTYPE(tag,className) [className class], [NSNumber numberWithChar: (tag)]
 
